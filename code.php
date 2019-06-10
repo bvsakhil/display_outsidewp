@@ -1,5 +1,5 @@
 <?php
-require($_SERVER['DOCUMENT_ROOT'] . '/wordpress/wp-load.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/wordpress/wp-load.php'); //replace 'wordpress' with your wp installed directory
 $args = array(
 'cat' => 4, // source posts from a specific category
 'posts_per_page' => 2 // Specify how many posts you'd like to display
